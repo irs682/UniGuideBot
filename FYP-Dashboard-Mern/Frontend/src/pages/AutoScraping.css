@@ -1,0 +1,80 @@
+.dashboard {
+  padding: 20px;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+/* HEADER */
+.dashboard-welcome {
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.scrape-btn {
+  padding: 10px 20px;
+  background: #22c55e;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+/* PROGRESS */
+.progress-box {
+  margin: 20px 0;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #38bdf8;
+  transition: width 0.3s;
+}
+
+/* STEPS */
+.step-box {
+  background: #1e293b;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.step-logs {
+  margin-top: 10px;
+}
+
+/* LIVE TERMINAL */
+.live-terminal {
+  margin-top: 20px;
+  background: black;
+  padding: 15px;
+  border-radius: 10px;
+  height: 300px;
+  overflow-y: auto;
+  font-family: monospace;
+}
+
+/* LOG COLORS */
+.blue { color: #38bdf8; }
+.orange { color: #f97316; }
+.purple { color: #a855f7; }
+.green { color: #22c55e; }
+.gray { color: #94a3b8; }
+
+/* TERMINAL LINE */
+.terminal-line {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.dot {
+  color: #22c55e;
+}

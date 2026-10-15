@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useCallback } from "react";
+﻿import React, { useEffect, useState, useCallback } from "react";
 import { Line, Bar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -24,6 +24,7 @@ import {
   ArrowUpRight,
   ShieldCheck,
   Zap,
+} from "lucide-react";
 import { useToast } from "../context/ToastContext";
 import { API_BASE_URL } from "../config/api";
 
